@@ -2,5 +2,12 @@ import React from 'react'
 import {render} from 'react-dom'
 
 import Intro from './components/Intro'
+import Projects from './components/Projects/'
 
-render(<Intro />, document.getElementById('app'))
+const App = () => (
+  <div>
+    <Intro />
+    <Projects />
+  </div>
+)
+render(<App />, document.getElementById('app'))
