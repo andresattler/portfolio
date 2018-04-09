@@ -29,7 +29,10 @@ module.exports = {
           },
           { loader: "stylus-loader" }
         ]
-			}		
+			},
+      { test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      }
 	 ]
   },
   plugins: [

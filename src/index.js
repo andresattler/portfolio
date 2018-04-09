@@ -1,6 +1,8 @@
 import React from 'react'
 import {render} from 'react-dom'
 
+import 'reset-css'
+
 import Intro from './components/Intro'
 import Projects from './components/Projects/'
 
