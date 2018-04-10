@@ -6,8 +6,8 @@ import style from './style.styl'
 const ProjectEl = ({ p }) =>
   <figure className={style.project}>
     <a href={p.url}>
-    <img src={p.image} alt={p.name}/>
-    <figcaption>{p.name}</figcaption>
+      <img src={p.image} alt={p.name}/>
+      <figcaption>{p.name}</figcaption>
     </a>
   </figure>
 

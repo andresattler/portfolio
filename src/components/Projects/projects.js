@@ -35,7 +35,37 @@ const projects = [
     url: 'http://codepen.io/andresattler/full/wzdKJR',
     image: 'https://andresattler.com/projects/calculator.png',
     type: 'freecodecamp'
+  },
+  { name: 'Twitch Status Viewer',
+    url: 'http://codepen.io/andresattler/full/PGzydr',
+    image: 'https://andresattler.com/projects/twitch-viewer.png',
+    type: 'freecodecamp'
+  },
+  { name: 'Wikipedia Viewer',
+    url: 'http://codepen.io/andresattler/full/LRYyxR',
+    image: 'https://andresattler.com/projects/wikipedia-viewer.png',
+    type: 'freecodecamp'
+  },
+  { name: 'Weather App',
+    url: 'http://codepen.io/andresattler/full/JXzjxP',
+    image: 'https://andresattler.com/projects/weather.png',
+    type: 'freecodecamp'
+  },
+  { name: 'Chuck Norriss Joke Generator',
+    url: 'http://codepen.io/andresattler/full/WwyBXL',
+    image: 'https://andresattler.com/projects/joke-generator.png',
+    type: 'freecodecamp'
+  },
+  { name: 'My firts portfolio',
+    url: 'http://codepen.io/andresattler/full/mPxXPj',
+    image: 'https://andresattler.com/projects/old-portfolio.png',
+    type: 'freecodecamp'
+  },
+  { name: 'my first FreeCodeCamp project',
+    url: 'http://codepen.io/andresattler/full/grWgMy',
+    image: 'https://andresattler.com/projects/tribute-page.png',    type: 'freecodecamp'
   }
+
 
 ]
 export default projects

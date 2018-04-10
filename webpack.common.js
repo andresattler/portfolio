@@ -24,7 +24,8 @@ module.exports = {
             loader: 'css-loader',				  
             options: {
               modules: true,
-              localIdentName: '[name]-[local][hash:base64:6]'
+              localIdentName: '[name]-[local][hash:base64:6]',
+              camelCase: true 
             }
           },
           { loader: "stylus-loader" }
