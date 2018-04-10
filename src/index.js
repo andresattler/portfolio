@@ -1,15 +1,24 @@
 import React from 'react'
 import {render} from 'react-dom'
+import { AppContainer } from 'react-hot-loader'
 
 import 'reset-css'
 
-import Intro from './components/Intro'
-import Projects from './components/Projects/'
+import App from './app'
 
-const App = () => (
-  <div>
-    <Intro />
-    <Projects />
-  </div>
-)
-render(<App />, document.getElementById('app'))
+const rootEl = document.getElementById('app') 
+
+const wrapApp = AppComponent =>
+  <AppContainer>
+    <AppComponent />
+  </AppContainer>
+
+render(wrapApp(App), rootEl)
+
+if (module.hot) {
+  module.hot.accept('./app', () => {
+    const NextApp = require('./app').default
+    render(wrapApp(NextApp), rootEl)
+  })
+}
+
