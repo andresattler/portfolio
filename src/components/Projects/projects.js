@@ -1,4 +1,14 @@
 const projects = [
+  { name: 'Game of Life',
+    url: 'https://github.com/andresattler/game-of-life',
+    image: 'https://andresattler.com/projects/game-of-life.png',
+    type: 'challenge'
+  },
+  { name: 'Backpack Problem',
+    url: 'https://github.com/andresattler/rucksackproblem',
+    image: 'https://andresattler.com/projects/backpack-problem.png',
+    type: 'challenge'
+  },
   { 
     name: 'My Blog',
     url:'https://andresattler.com/blog',
